@@ -22,6 +22,7 @@ textarea {
 
 button {
     margin-top: 10px;
+    margin-bottom: 20px; /* extra space below the button */
     padding: 10px 20px;
     background-color: #a45d7f;
     color: white;
@@ -43,5 +44,37 @@ button:hover {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#entriesContainer { 
+    margin-top: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* style link with id "button" to look like a button */
+#button {
+    display: inline-block;
+    cursor: pointer;
+    font-family: bradley hand, cursive;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    text-align: center;
+    border: 0.1rem solid #a45d7f;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    background-color: #a45d7f;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#button:hover {
+    background-color: #a45d7f;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    translateX
 }
 
